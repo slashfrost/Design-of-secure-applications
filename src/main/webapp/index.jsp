@@ -1,5 +1,9 @@
 
 <head>
+    <meta charset="UTF-8">
+    <style>
+        <%@include file="/WEB-INF/css/style.css"%>
+    </style>
 </head>
 <body>
 <form method="post" action="" class="login">
@@ -17,7 +21,9 @@
         <button type="submit" class="login-button">Login</button>
     </p>
 
-    <p class="forgot-password"><a href="index.html">Forgot password?</a></p>
+    <p class="login-submit">
+        <button type="submit" class="login-button">Registration</button>
+    </p>
 </form>
 </body>
 </html>
