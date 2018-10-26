@@ -1,12 +1,10 @@
 
 <head>
     <meta charset="UTF-8">
-    <style>
-        <%@include file="/WEB-INF/css/style.css"%>
-    </style>
+
 </head>
 <body>
-<form method="post" action="" class="login">
+<form method="Post" action="" class="login">
     <p>
         <label for="login">Login:</label>
         <input type="text" name="login" id="login" value="name@example.com">
@@ -22,7 +20,7 @@
     </p>
 
     <p class="login-submit">
-        <button type="submit" class="login-button">Registration</button>
+        <button type="submit" class="login-button" onclick="location.href='Reg.jsp'">Registration</button>
     </p>
 </form>
 </body>
