@@ -1,7 +1,7 @@
 
 <head>
     <meta charset="UTF-8">
-
+    <script src='https://www.google.com/recaptcha/api.js'></script>
 </head>
 <body>
 <form method="Post" action="" class="login">
@@ -22,6 +22,7 @@
     <p class="login-submit">
         <button type="submit" class="login-button" onclick="location.href='Reg.jsp'">Registration</button>
     </p>
+    <div class="g-recaptcha" data-sitekey="6LeodXgUAAAAANPsa1gThWNevMNefzBJOkfe6MSi"></div>
 </form>
 </body>
 </html>
